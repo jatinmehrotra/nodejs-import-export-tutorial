@@ -1,6 +1,11 @@
-const a = require('./3rdway(export)');
+const { add } = require('./3rdway(export)'); //destructuring to avoid a.add()
 
-a.add();
+/* usual way
+const a = require('./3rdway(export)'); 
+a.add()
+*/
+
+add();
 
 /* output 
 { one: [Function: one] }
